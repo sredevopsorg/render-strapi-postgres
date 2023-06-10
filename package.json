@@ -1,7 +1,7 @@
 {
-  "name": "strapi-postgres",
+  "name": "elclaustro-strapi",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
@@ -9,23 +9,23 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.7",
-    "@strapi/plugin-users-permissions": "4.6.0",
-    "@strapi/strapi": "4.8.0",
-    "pg": "^8.7.3",
-    "pg-connection-string": "^2.5.0",
-    "sqlite3": "^5.1.5"
+    "@strapi/plugin-i18n": "4.9.2",
+    "@strapi/plugin-seo": "^1.8.0",
+    "@strapi/plugin-users-permissions": "4.9.2",
+    "@strapi/strapi": "4.9.2",
+    "better-sqlite3": "7.4.6",
+    "pg": "^8.11.0",
+    "strapi-provider-firebase-storage": "^1.0.3"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "fd1159cd-5981-4881-877c-3cacd7f6dbf9"
+    "uuid": "42b937aa-0f16-4a30-bb55-95f60ec03b48"
   },
   "engines": {
-    "node": ">=10.0.0",
+    "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
