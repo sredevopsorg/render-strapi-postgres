@@ -12,7 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-i18n": "4.1.7",
-    "@strapi/plugin-users-permissions": "4.1.7",
+    "@strapi/plugin-users-permissions": "4.6.0",
     "@strapi/strapi": "4.8.0",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
